@@ -1,0 +1,169 @@
+2021-01-22 13:12:47.553  INFO 13473 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13473 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:12:47.555 DEBUG 13473 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:12:47.555  INFO 13473 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:12:48.539  INFO 13473 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.289 seconds (JVM running for 1.855)
+2021-01-22 13:17:53.531  INFO 13529 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13529 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:17:53.533 DEBUG 13529 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:17:53.533  INFO 13529 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:17:54.534  INFO 13529 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.306 seconds (JVM running for 1.904)
+2021-01-22 13:19:25.223  INFO 13549 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13549 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:19:25.225 DEBUG 13549 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:19:25.225  INFO 13549 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:19:25.712  WARN 13549 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2021-01-22 13:19:25.734 ERROR 13549 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2021-01-22 13:19:49.840  INFO 13555 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13555 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:19:49.842 DEBUG 13555 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:19:49.843  INFO 13555 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:19:50.361  WARN 13555 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2021-01-22 13:19:50.376 ERROR 13555 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2021-01-22 13:20:05.908  INFO 13557 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13557 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:20:05.910 DEBUG 13557 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:20:05.910  INFO 13557 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:20:06.848  INFO 13557 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.222 seconds (JVM running for 1.613)
+2021-01-22 13:21:06.422  INFO 13561 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13561 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:21:06.424 DEBUG 13561 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:21:06.424  INFO 13561 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:21:07.352  INFO 13561 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.21 seconds (JVM running for 1.622)
+2021-01-22 13:22:20.127  INFO 13571 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13571 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:22:20.129 DEBUG 13571 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:22:20.129  INFO 13571 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:22:21.037  INFO 13571 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.202 seconds (JVM running for 1.761)
+2021-01-22 13:22:43.276  INFO 13574 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13574 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:22:43.278 DEBUG 13574 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:22:43.278  INFO 13574 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:22:44.224  INFO 13574 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.253 seconds (JVM running for 1.668)
+2021-01-22 13:26:13.454  INFO 13590 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13590 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:26:13.456 DEBUG 13590 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:26:13.457  INFO 13590 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:26:14.514  INFO 13590 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.37 seconds (JVM running for 1.818)
+2021-01-22 13:26:56.658  INFO 13593 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13593 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:26:56.660 DEBUG 13593 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:26:56.661  INFO 13593 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:26:57.677  INFO 13593 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.304 seconds (JVM running for 1.733)
+2021-01-22 13:27:20.654  INFO 13597 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13597 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:27:20.656 DEBUG 13597 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:27:20.657  INFO 13597 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:27:21.215  WARN 13597 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2021-01-22 13:27:21.233 ERROR 13597 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2021-01-22 13:27:44.972  INFO 13605 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13605 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:27:44.974 DEBUG 13605 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:27:44.975  INFO 13605 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:27:46.061  INFO 13605 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.434 seconds (JVM running for 1.893)
+2021-01-22 13:28:05.057  INFO 13613 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13613 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:28:05.059 DEBUG 13613 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:28:05.059  INFO 13613 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:28:06.037  INFO 13613 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.289 seconds (JVM running for 1.793)
+2021-01-22 13:28:23.507  INFO 13616 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13616 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:28:23.509 DEBUG 13616 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:28:23.509  INFO 13616 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:28:24.498  INFO 13616 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.275 seconds (JVM running for 1.742)
+2021-01-22 13:28:44.938  INFO 13622 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13622 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:28:44.939 DEBUG 13622 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:28:44.940  INFO 13622 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:28:45.916  INFO 13622 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.262 seconds (JVM running for 1.705)
+2021-01-22 13:32:07.072  INFO 13631 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13631 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:32:07.074 DEBUG 13631 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:32:07.074  INFO 13631 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:32:08.012  INFO 13631 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.224 seconds (JVM running for 1.777)
+2021-01-22 13:33:32.053  INFO 13639 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13639 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:33:32.059 DEBUG 13639 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:33:32.060  INFO 13639 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:33:33.136  INFO 13639 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.417 seconds (JVM running for 1.908)
+2021-01-22 13:39:44.557  INFO 13690 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13690 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:39:44.559 DEBUG 13690 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:39:44.559  INFO 13690 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:39:45.840  INFO 13690 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.579 seconds (JVM running for 2.153)
+2021-01-22 13:42:24.582  INFO 13706 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13706 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:42:24.584 DEBUG 13706 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:42:24.584  INFO 13706 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:42:25.532  INFO 13706 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.233 seconds (JVM running for 1.877)
+2021-01-22 13:43:32.213  INFO 13712 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13712 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:43:32.215 DEBUG 13712 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:43:32.215  INFO 13712 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:43:32.877  INFO 13712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-22 13:43:32.882  INFO 13712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-22 13:43:32.883  INFO 13712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 13:43:32.924  INFO 13712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-22 13:43:32.924  INFO 13712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 680 ms
+2021-01-22 13:43:33.048  INFO 13712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-22 13:43:33.234  INFO 13712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-22 13:43:33.243  INFO 13712 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.321 seconds (JVM running for 1.761)
+2021-01-22 13:43:36.935  INFO 13712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 13:43:36.949  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-22 13:43:36.951  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-22 13:45:41.778  INFO 13712 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-22 13:45:44.010  INFO 13729 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13729 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:45:44.012 DEBUG 13729 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:45:44.013  INFO 13729 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:45:44.774  INFO 13729 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-22 13:45:44.782  INFO 13729 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-22 13:45:44.782  INFO 13729 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 13:45:44.834  INFO 13729 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-22 13:45:44.834  INFO 13729 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 780 ms
+2021-01-22 13:45:44.944  INFO 13729 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-22 13:45:45.143  INFO 13729 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-22 13:45:45.151  INFO 13729 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.451 seconds (JVM running for 1.938)
+2021-01-22 13:51:52.107  INFO 13729 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-22 13:51:55.200  INFO 13800 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13800 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 13:51:55.202 DEBUG 13800 --- [main] c.l.s.SpringBootDemoApplication          : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-22 13:51:55.203  INFO 13800 --- [main] c.l.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2021-01-22 13:51:55.865  INFO 13800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-22 13:51:55.871  INFO 13800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-22 13:51:55.871  INFO 13800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 13:51:55.914  INFO 13800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-22 13:51:55.914  INFO 13800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 671 ms
+2021-01-22 13:51:56.048  INFO 13800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-22 13:51:56.228  INFO 13800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-22 13:51:56.235  INFO 13800 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.341 seconds (JVM running for 1.924)
+2021-01-22 13:52:01.848  INFO 13800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 13:52:01.864  INFO 13800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-22 13:52:01.865  INFO 13800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-22 14:13:32.829  INFO 13800 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-22 14:17:17.975  INFO 13925 --- [main] c.l.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 1.8.0_151 on zhanghongyide-MacBook-Pro.local with PID 13925 (/Users/louischang/IdeaProjects/spring-boot-demo/target/classes started by louischang in /Users/louischang/IdeaProjects/spring-boot-demo)
+2021-01-22 14:17:17.978  INFO 13925 --- [main] c.l.s.SpringBootDemoApplication          : The following profiles are active: pro
+2021-01-22 14:17:19.393  INFO 13925 --- [main] c.l.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.746 seconds (JVM running for 2.298)

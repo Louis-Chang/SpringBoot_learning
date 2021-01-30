@@ -1,0 +1,13 @@
+
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+
+book:
+  name: OKR
+  author: John
+  isbn: ${random.uuid}
+  description: 想學${book.name}嗎？
+
